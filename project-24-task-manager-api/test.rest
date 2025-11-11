@@ -1,0 +1,31 @@
+### Root
+GET http://localhost:3003/
+
+### GET all tasks
+GET http://localhost:3003/api/tasks
+
+### Get task by ID
+GET http://localhost:3003/api/tasks/1
+
+### Create a new task
+POST http://localhost:3003/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Test new API"
+}
+
+### Update task title
+PUT http://localhost:3003/api/tasks/2
+Content-Type: application/json 
+
+{
+    "title": "Build a new CRUD project"
+}
+
+### Toggle completion status
+PATCH http://localhost:3003/api/tasks/3/toggle
+
+
+### Delete task
+DELETE http://localhost:3003/api/tasks/1
