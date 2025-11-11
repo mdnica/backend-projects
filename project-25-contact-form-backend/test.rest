@@ -1,0 +1,13 @@
+### Root
+GET http://localhost:3004/
+
+
+### Submit contact form
+POST http://localhost:3004/contact
+Content-Type: application/json 
+
+{
+    "name": "Monica",
+    "email": "monica@example.com",
+    "message": "Hi! I just tested this contact form backend!"
+}
