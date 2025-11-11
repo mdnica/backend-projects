@@ -1,40 +1,9 @@
-# 🧠 Backend Projects
+### 🧠 Backend & APIs (Projects 21–25)
 
-A collection of **15 backend projects** built to master **Node.js**, **Express**, and **databases** — from beginner to advanced level.
-
----
-
-## 📂 Project List
-
-| #   | Project Name                                              | Live Demo     | Description                                           |
-| --- | --------------------------------------------------------- | ------------- | ----------------------------------------------------- |
-| 21  | [Simple REST API](./project-21-simple-rest-api)           | (coming soon) | Basic Express API with GET, POST, PUT, DELETE routes  |
-| 22  | [Login System with Sessions](./project-22-login-system)   | (coming soon) | User authentication and session handling              |
-| 23  | [CRUD User Management API](./project-23-crud-user-api)    | (coming soon) | Full CRUD API for managing users                      |
-| 24  | [Task Manager API](./project-24-task-manager-api)         | (coming soon) | Create, update, and manage user tasks                 |
-| 25  | [Contact Form Backend](./project-25-contact-form-backend) | (coming soon) | Backend to process and store contact form submissions |
-| ... | ...                                                       | ...           | ...                                                   |
-
----
-
-## 🧩 Tech Stack
-
-- **Node.js** — runtime environment
-- **Express.js** — web application framework
-- **MongoDB** / **PostgreSQL** — database layer
-- **Postman** — API testing
-- **VS Code** — development environment
-
----
-
-## 🧠 Learning Goals
-
-- Build RESTful APIs from scratch
-- Understand routing, middleware, and controllers
-- Connect APIs with databases
-- Implement authentication and sessions
-- Handle requests, responses, and errors gracefully
-
----
-
-⭐ _Follow along as I build 15 backend projects, step by step, mastering full-stack development!_
+| #   | Project Name                                                                                                         | Live Demo    | Description                                                                  |
+| --- | -------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------- |
+| 21  | [Simple REST API](https://github.com/mdnica/backend-projects/tree/main/project-21-simple-rest-API)                   | (local only) | Basic REST API built with Express that returns product data.                 |
+| 22  | [Login System with Sessions](https://github.com/mdnica/backend-projects/tree/main/project-22-login-system)           | (local only) | Simple login/logout system using Express-session.                            |
+| 23  | [CRUD User Management API](https://github.com/mdnica/backend-projects/tree/main/project-23-crud-user-management-API) | (local only) | CRUD API to create, read, update, and delete users.                          |
+| 24  | [Task Manager API](https://github.com/mdnica/backend-projects/tree/main/project-24-task-manager-API)                 | (local only) | Task management API supporting task creation, updates, and status toggling.  |
+| 25  | [Contact Form Backend](https://github.com/mdnica/backend-projects/tree/main/project-25-contact-form-backend)         | (local only) | Full-stack contact form backend connected with frontend for form submission. |

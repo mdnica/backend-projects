@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 app.use(bodyParser.json());
+app.use(express.static("public")); // serve the frontend
 
 const PORT = 3004;
 
@@ -31,5 +32,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost: ${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
